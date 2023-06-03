@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imdb_reviews",
+  "info": {
+    "singularName": "imdb-review",
+    "pluralName": "imdb-reviews",
+    "displayName": "Imdb Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "review": {
+      "type": "richtext"
+    },
+    "sentiment": {
+      "type": "enumeration",
+      "enum": [
+        "negative",
+        "positive",
+        "mixed"
+      ]
+    }
+  }
+}
